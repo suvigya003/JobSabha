@@ -1,19 +1,24 @@
-// routes
-import Router from './routes';
-// theme
-import ThemeProvider from './theme';
-// components
-import ScrollToTop from './components/ScrollToTop';
-import { BaseOptionChartStyle } from './components/chart/BaseOptionChart';
+import logo from './logo.svg';
+import './App.css';
+import { ThemeProvider } from '@mui/material';
+// import theme from './theme.js'
+import Banner from './components/home/Banner';
+import Navbar from './components/home/Navbar';
+import Blocks from './components/home/Blocs';
+import Tables from './components/home/Table';
 
-// ----------------------------------------------------------------------
-
-export default function App() {
+function App() {
   return (
-    <ThemeProvider>
-      <ScrollToTop />
-      <BaseOptionChartStyle />
-      <Router />
-    </ThemeProvider>
+    <>
+    {/* <ThemeProvider theme={theme}> */}
+    <Banner/>
+    <Navbar/>
+    <Blocks/>
+    <Tables/>
+    {/* </ThemeProvider> */}
+    
+    </>
   );
 }
+
+export default App;

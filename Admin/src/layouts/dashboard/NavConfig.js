@@ -12,19 +12,29 @@ const navConfig = [
     icon: getIcon('eva:pie-chart-2-fill'),
   },
   {
-    title: 'user',
-    path: '/dashboard/user',
+    title: 'latest jobs',
+    path: '/dashboard/latestJobs',
+    icon: getIcon('eva:file-text-fill'),
+  },
+  {
+    title: 'Result',
+    path: '/dashboard/result',
     icon: getIcon('eva:people-fill'),
   },
   {
-    title: 'product',
-    path: '/dashboard/products',
+    title: 'admit card',
+    path: '/dashboard/admitCard',
     icon: getIcon('eva:shopping-bag-fill'),
   },
   {
-    title: 'blog',
-    path: '/dashboard/blog',
-    icon: getIcon('eva:file-text-fill'),
+    title: 'Answer Key',
+    path: '/dashboard/answerKey',
+    icon: getIcon('eva:people-fill'),
+  },
+  {
+    title: 'Syllabus',
+    path: '/dashboard/syllabus',
+    icon: getIcon('eva:people-fill'),
   },
   {
     title: 'login',
