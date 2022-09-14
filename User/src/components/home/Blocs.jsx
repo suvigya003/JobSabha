@@ -20,6 +20,7 @@ import {
   Grid,
 } from "@mui/material";
 import TextField from "@mui/material/TextField";
+import {theme} from '../../theme';
 
 const Blocks = () => {
   return (
@@ -31,13 +32,13 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.one,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.one,
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #B0BDFF'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -45,9 +46,10 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
+                    // color: "white",
+                    fontFamily:theme.typography.fontFamily,
                     textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -59,13 +61,14 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.two,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.two,
+                // bgcolor: "red",
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #FFC093'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -73,9 +76,9 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
+                    // color: "white",
                     textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -87,13 +90,15 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.three,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.three,
+                // bgcolor: "red",
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #F6BCFF'
+               
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -101,9 +106,9 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
+                    // color: "white",
                     textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -115,13 +120,14 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.four,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.four,
+                // bgcolor: "red",
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #B0BDFF'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -129,9 +135,9 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
+                    // color: "white",
                     textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -143,13 +149,14 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.five,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.five,
+                // bgcolor: "red",
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #F6BCFF'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -157,9 +164,9 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
+                    // color: "white",
                     textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -171,13 +178,43 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.six,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.six,
+                // bgcolor: "red",
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #9FF3FF'
+              }}
+            >            
+              <Link href="../PostPage.jsx" color="inherit" underline="none">
+                <Typography
+                  variant="h5"
+                  fontWeight="600"
+                  sx={{
+                    // color: "white",
+                    textAlign:'center',
+                    color:theme.palette.text.main,
+                  }}
+                >
+              UPSC OTR 2022 REGISTRATION 
+                </Typography>
+              </Link>
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={3}>
+            <Box
+              p={1}
+              sx={{
+                bgcolor:theme.palette.background.seven,
+                // bgcolor: "red",
+                borderRadius: "16px",
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent:'center',
+                border:'2px solid #FFC093'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -185,9 +222,8 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
                     textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -199,13 +235,14 @@ const Blocks = () => {
             <Box
               p={1}
               sx={{
-                // bgcolor:theme.palette.background.seven,
-                bgcolor: "red",
+                bgcolor:theme.palette.background.eight,
+                // bgcolor: "red",
                 borderRadius: "16px",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
+                border:'2px solid #F6BCFF'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -213,38 +250,9 @@ const Blocks = () => {
                   variant="h5"
                   fontWeight="600"
                   sx={{
-                    color: "white",
+                    // color: "white",
                     textAlign:'center',
-                    textAlign:'center',
-                    // color:theme.palette.text.main,
-                  }}
-                >
-                  UPSC OTR 2022 REGISTRATION
-                </Typography>
-              </Link>
-            </Box>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Box
-              p={1}
-              sx={{
-                // bgcolor:theme.palette.background.eight,
-                bgcolor: "red",
-                borderRadius: "16px",
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent:'center',
-              }}
-            >            
-              <Link href="#" color="inherit" underline="none">
-                <Typography
-                  variant="h5"
-                  fontWeight="600"
-                  sx={{
-                    color: "white",
-                    textAlign:'center',
-                    // color:theme.palette.text.main,
+                    color:theme.palette.text.main,
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION

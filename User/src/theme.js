@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material";
 export const theme = createTheme({
     palette: {
         primary: {
-          main: "#ae1555",
+          main: "#0d47a1",
           light: "#2196f3",
           dark: "#424242",
         },
@@ -12,27 +12,29 @@ export const theme = createTheme({
           // dark: "#fff",
         },
         text: {
-          main: "#000", //banner and navbar content
+          main: "#1C1A55", //banner and navbar content
           light: "#d2d2d2", 
-          dark: "#6C757D", //navbar below content
+          dark: "#050748", //navbar below content
           default: "#fff",
         },
         background: {
-          default: "#fff", // for banner bg
-          main: "#ae1555", // for table's box bg color
-          light: "#faf6f2",
-          dark:"#000", //for navbar box
-          one:"#000", //bloc 1 bg color
-          two:"#000", //bloc 2 bg color
-          three:"#000", //bloc 3 bg color
-          four:"#000", //bloc 4 bg color
-          five:"#000", //bloc 5 bg color
-          six:"#000", //bloc 6 bg color
-          seven:"#000", //bloc 7 bg color
-          eight:"#000", //bloc 8 bg color
+          default: "#FFDADB", // for banner bg
+          main: "#FFE9DC", // for table's box bg color
+          card1: "#FFDADB", // for post 1's bgcolor
+          card2: "#FFEDE1", // for post 2's bgcolor
+          card3: "#D4C2B4", // for post 3's bgcolor
+          dark:"#E9DDFF", //for navbar box
+          one:"#F3F5FF", //bloc 1 bg color
+          two:"#FFF3E6", //bloc 2 bg color
+          three:"#FBEEFD", //bloc 3 bg color
+          four:"#F3F5FF", //bloc 4 bg color
+          five:"#FBEEFD", //bloc 5 bg color
+          six:"#EFFDFF", //bloc 6 bg color
+          seven:"#FFF3E6", //bloc 7 bg color
+          eight:"#FBEEFD", //bloc 8 bg color
         },
         error: {
-          main: "#ff0000", //for table's box border color
+          main: "#ffa726", //for table's box border color
           bg: "#ffebeb",
            
         },

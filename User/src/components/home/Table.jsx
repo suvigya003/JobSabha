@@ -20,6 +20,7 @@ import {
   Grid,
 } from "@mui/material";
 import TextField from "@mui/material/TextField";
+import {theme} from '../../theme';
 
 const Tables = () => {
   return (
@@ -29,15 +30,13 @@ const Tables = () => {
               <Grid item md={4}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -45,7 +44,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -71,8 +70,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -87,15 +85,13 @@ sx={{
               <Grid item md={4}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -103,7 +99,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -129,8 +125,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -144,15 +139,13 @@ sx={{
               <Grid item md={4}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -160,7 +153,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -186,8 +179,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -207,15 +199,13 @@ sx={{
 <Grid item md={6}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -223,7 +213,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -249,8 +239,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -265,15 +254,13 @@ sx={{
 <Grid item md={6}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -281,7 +268,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -307,8 +294,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -323,15 +309,13 @@ sx={{
 <Grid item md={6}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -339,7 +323,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -365,8 +349,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -381,15 +364,13 @@ sx={{
 <Grid item md={6}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -397,7 +378,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -423,8 +404,7 @@ sx={{
 >
 <Button
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
@@ -441,15 +421,13 @@ sx={{
 <Grid item md={4}>
 <Box 
 sx={{
-  // border:'1px solid theme.palette.error.main',
-  border:'1px solid black',
+  border:'2px solid'+ theme.palette.error.main,
   borderRadius:'16px'
 }}
 >
 <Box p={0.5}
 sx={{
-  bgcolor:'red',
-  // bgcolor:theme.palette.background.main,
+  bgcolor:theme.palette.background.main,
   borderRadius:'16px 16px 0px 0px'
 }}
 >
@@ -457,7 +435,7 @@ sx={{
  variant="h5"
  fontWeight="600"
  sx={{
-   color: "white",
+  color:theme.palette.text.main,
    textAlign:'center',
  }}
 >
@@ -465,7 +443,7 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
+  <li><Link href="#">UP ITI Round 3 Result</Link></li>
   <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
   <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
   <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
@@ -484,8 +462,6 @@ sx={{
   <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
   <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
   <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
 </ul>
 <Box mr='10px' mb='10px'
 sx={{
@@ -496,8 +472,7 @@ sx={{
 >
 <Button 
 sx={{
-  color:'red',
-  // color:theme.palette.primary.main,
+  color:theme.palette.text.main,
   textTransform: 'none',
 }}
 >
