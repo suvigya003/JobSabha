@@ -100,23 +100,7 @@ const Navbar = () => {
       <Link href="#" underline="none" color="inherit"> Contact Us</Link>
      
        </Box>
-       <Box mt={1} ml={20} mr={20} 
-       sx={{
-display:'flex',
-alignItems:'center',
-justifyContent:'center'
-       }}
        
-       >
-            <Typography fontWeight='700' variant='h6'
-            sx={{
-                fontWeight:theme.typography.fontWeightBold,
-                color:theme.palette.text.main,
-               }}
-            >
-            Sarkari Result : SarkariResult.Com Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2022
-            </Typography>
-       </Box>
     </>
   );
 };

@@ -25,10 +25,27 @@ import {theme} from '../../theme';
 const Blocks = () => {
   return (
     <>
-    
+    <Box mt={1} ml={20} mr={20}
+       sx={{
+display:'flex',
+alignItems:'center',
+justifyContent:'center'
+       }}
+       
+       >
+            <Typography fontWeight='700' variant='h6'
+            sx={{
+                fontWeight:theme.typography.fontWeightBold,
+                color:theme.palette.text.main,
+                textAlign:'center'
+               }}
+            >
+            Sarkari Result : SarkariResult.Com Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2022
+            </Typography>
+       </Box>
       <Box m={5} ml={20} mr={20}>
         <Grid container spacing={1}>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -38,7 +55,8 @@ const Blocks = () => {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #B0BDFF'
+                border:'2px solid #B0BDFF',
+                overflow:'hidden'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -57,7 +75,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -86,7 +104,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -116,7 +134,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -145,7 +163,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -174,7 +192,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -203,7 +221,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{
@@ -231,7 +249,7 @@ const Blocks = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={4} lg={3}>
             <Box
               p={1}
               sx={{

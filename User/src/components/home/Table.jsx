@@ -194,9 +194,9 @@ sx={{
         </Box>
         <Box m={1} ml={25}mr={25} mb={5}>
 <Grid container spacing={3}>
-<Grid item md={8}>
-<Grid container spacing={3}>
-<Grid item md={6}>
+{/* <Grid item md={8}> */}
+{/* <Grid container spacing={3}> */}
+<Grid item md={4}>
 <Box 
 sx={{
   border:'2px solid'+ theme.palette.error.main,
@@ -251,7 +251,7 @@ sx={{
 
 </Box>
 </Grid>
-<Grid item md={6}>
+<Grid item md={4}>
 <Box 
 sx={{
   border:'2px solid'+ theme.palette.error.main,
@@ -305,118 +305,6 @@ sx={{
 </Box>
 
 </Box>
-</Grid>
-<Grid item md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Certificate Verification
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-<Grid item md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Important
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-</Grid>
 </Grid>
 <Grid item md={4}>
 <Box 
@@ -484,6 +372,119 @@ sx={{
 
 </Box>
 </Grid>
+<Grid item md={4}>
+<Box 
+sx={{
+  border:'2px solid'+ theme.palette.error.main,
+  borderRadius:'16px'
+}}
+>
+<Box p={0.5}
+sx={{
+  bgcolor:theme.palette.background.main,
+  borderRadius:'16px 16px 0px 0px'
+}}
+>
+<Typography
+ variant="h5"
+ fontWeight="600"
+ sx={{
+  color:theme.palette.text.main,
+   textAlign:'center',
+ }}
+>
+  Certificate Verification
+</Typography>
+</Box>
+<ul>
+  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
+  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
+  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
+  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
+  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
+  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
+  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+</ul>
+<Box mr='10px' mb='10px'
+sx={{
+  right:0,
+  display:'flex',
+  justifyContent:'end'
+}}
+>
+<Button 
+sx={{
+  color:theme.palette.text.main,
+  textTransform: 'none',
+}}
+>
+  <Typography fontWeight="700">
+    View More
+  </Typography>
+</Button>
+</Box>
+
+</Box>
+</Grid>
+<Grid item md={4}>
+<Box 
+sx={{
+  border:'2px solid'+ theme.palette.error.main,
+  borderRadius:'16px'
+}}
+>
+<Box p={0.5}
+sx={{
+  bgcolor:theme.palette.background.main,
+  borderRadius:'16px 16px 0px 0px'
+}}
+>
+<Typography
+ variant="h5"
+ fontWeight="600"
+ sx={{
+  color:theme.palette.text.main,
+   textAlign:'center',
+ }}
+>
+  Important
+</Typography>
+</Box>
+<ul>
+  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
+  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
+  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
+  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
+  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
+  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
+  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+</ul>
+<Box mr='10px' mb='10px'
+sx={{
+  right:0,
+  display:'flex',
+  justifyContent:'end'
+}}
+>
+<Button
+sx={{
+  color:theme.palette.text.main,
+  textTransform: 'none',
+}}
+>
+  <Typography fontWeight="700">
+    View More
+  </Typography>
+</Button>
+</Box>
+
+</Box>
+</Grid>
+{/* </Grid> */}
+{/* </Grid> */}
+
 </Grid>
         </Box>
     </>

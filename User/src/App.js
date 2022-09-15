@@ -6,7 +6,7 @@ import Banner from './components/home/Banner';
 import Navbar from './components/home/Navbar';
 import Blocks from './components/home/Blocs';
 import Tables from './components/home/Table';
-// import Footer from './components/footer/Footer';
+import Footer from './components/footer/Footer';
 import PostPage from './components/post/PostPage';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <Navbar/>
     <Blocks/>
     <Tables/>
-    {/* <Footer/> */}
+    <Footer/>
     <PostPage/>
     </ThemeProvider>
     
