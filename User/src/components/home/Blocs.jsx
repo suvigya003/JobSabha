@@ -25,7 +25,9 @@ import {theme} from '../../theme';
 const Blocks = () => {
   return (
     <>
-    <Box mt={1} ml={20} mr={20}
+    <Box mt={1} 
+    // ml={20} mr={20}
+    ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
        sx={{
 display:'flex',
 alignItems:'center',
@@ -43,9 +45,9 @@ justifyContent:'center'
             Sarkari Result : SarkariResult.Com Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2022
             </Typography>
        </Box>
-      <Box m={5} ml={20} mr={20}>
+      <Box m={5} ml={20} mr={20} >
         <Grid container spacing={1}>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -68,6 +70,7 @@ justifyContent:'center'
                     fontFamily:theme.typography.fontFamily,
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -75,7 +78,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -97,6 +100,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -104,7 +108,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -127,6 +131,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -134,7 +139,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -156,6 +161,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -163,7 +169,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -185,6 +191,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -192,7 +199,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -214,6 +221,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
               UPSC OTR 2022 REGISTRATION 
@@ -221,7 +229,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -242,6 +250,7 @@ justifyContent:'center'
                   sx={{
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -249,7 +258,7 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} lg={3}>
+          <Grid item xs={12} sm={6} md={3} lg={3}>
             <Box
               p={1}
               sx={{
@@ -271,6 +280,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
+                    fontSize:'1.1em'
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION

@@ -60,7 +60,7 @@ export const theme = createTheme({
       },
       typography: {
         fontFamily: "Poppins, sans-serif",
-        lineSpacing:'35px',
+        lineSpacing:'20px',
         fontWeightDark: 600,
         fontWeightBold: 700,
         fontWeightBolder: 800,

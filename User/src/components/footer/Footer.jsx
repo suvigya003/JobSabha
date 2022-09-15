@@ -41,8 +41,9 @@ const Footer = () => {
       p={5}
         className="_footer"
         m={5}
-        ml={20}
-        mr={20}
+        ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
+        // ml={20}
+        // mr={20}
         sx={{
           borderRadius: "16px",
           background:theme.palette.error.bg,
@@ -50,7 +51,7 @@ const Footer = () => {
         }}
       >
         <Grid container spacing={3}>
-<Grid item xs={12} sm={12} md={6} lg={2}>
+<Grid item xs={12} sm={6} md={6} lg={2}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Quick Search
 </Typography>
@@ -61,7 +62,7 @@ Quick Search
 <Link href="#" underline="none" color="inherit">Search </Link>
 </Box>
 </Grid>
-<Grid item xs={12} sm={12} md={6} lg={2}>
+<Grid item xs={12} sm={6} md={6} lg={2}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Useful Links
 </Typography>
@@ -73,15 +74,15 @@ Useful Links
 <Link href="#" underline="none" color="inherit">Search </Link>
 </Box>
 </Grid>
-<Grid item xs={12} sm={12} md={6} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={4}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Share Your Feedback
 </Typography>
-<Typography sx={{ textAlign:'justify'}}>
+<Typography sx={{ textAlign:'left'}}>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore assumenda ducimus nisi minima veritatis odio cupiditate, ratione explicabo molestiae.
 </Typography>
 </Grid>
-<Grid item xs={12} sm={12} md={6} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={4}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Contact Us
 </Typography>
@@ -116,13 +117,6 @@ abc@xyz.com
 </Grid>
         </Grid>
       </Box>
-      
-      <center>
-        <Box className="__copy">
-          &copy; 2021 Indian Matrimonial | Trademarks and brands are the
-          property of their respective owners.
-        </Box>
-      </center>
     </>
   );
 };

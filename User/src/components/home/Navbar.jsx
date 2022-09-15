@@ -27,9 +27,11 @@ const Navbar = () => {
     <>
      
       <Box
-        ml={20}
-        mr={20}
+        // ml={20}
+        // mr={20}
+        ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
         sx={{
+          
             // color:'white',
             color:theme.palette.text.main,
           display: "flex",
@@ -38,7 +40,8 @@ const Navbar = () => {
           // bgcolor:'black',
           backgroundColor:theme.palette.background.dark,
         fontWeight:600,
-        borderRadius:'0px 0px 16px 16px'
+        borderRadius:'0px 0px 16px 16px',
+        display:{xs:'none', md:'flex'}
         }}
       >   
       <Link href="#" underline="none" color="inherit">Home </Link>
