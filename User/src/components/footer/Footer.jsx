@@ -38,84 +38,81 @@ const Footer = () => {
   return (
     <>
       <Box
-      p={5}
+      p={'3vw'}
         className="_footer"
-        m={5}
-        ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
+        m={'4vw'}
+        ml={'1vw'} mr={'1vw'} 
         // ml={20}
         // mr={20}
         sx={{
-          borderRadius: "16px",
+          borderRadius: "1.5vw",
           background:theme.palette.error.bg,
           
         }}
       >
-        <Grid container spacing={3}>
-<Grid item xs={12} sm={6} md={6} lg={2}>
+        <Grid container spacing={'6vw'}>
+<Grid item  maxWidth={'20vw'}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Quick Search
 </Typography>
 <Box sx={{display:'flex', flexDirection:'column'}}>
-<Link href="#" underline="none" color="inherit">All Members </Link>
-<Link href="#" underline="none" color="inherit">Premium Members </Link>
-<Link href="#" underline="none" color="inherit">Free Members </Link>
-<Link href="#" underline="none" color="inherit">Search </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>All Members</Typography> </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>Premium Members</Typography> </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>Free Members</Typography> </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>Search</Typography> </Link>
 </Box>
 </Grid>
-<Grid item xs={12} sm={6} md={6} lg={2}>
+<Grid item maxWidth={'20vw'}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Useful Links
 </Typography>
 <Box sx={{display:'flex', flexDirection:'column'}}>
 
-<Link href="#" underline="none" color="inherit">All Members </Link>
-<Link href="#" underline="none" color="inherit">Premium Members </Link>
-<Link href="#" underline="none" color="inherit">Free Members </Link>
-<Link href="#" underline="none" color="inherit">Search </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>All Members </Typography> </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>Premium Members </Typography> </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>Free Members </Typography> </Link>
+<Link href="#" underline="none" color="inherit"><Typography variant='body1'>Search </Typography> </Link>
 </Box>
 </Grid>
-<Grid item xs={12} sm={6} md={6} lg={4}>
+<Grid item maxWidth={'31vw'}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Share Your Feedback
 </Typography>
-<Typography sx={{ textAlign:'left'}}>
+<Typography variant='body1'sx={{ textAlign:'left',}}>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore assumenda ducimus nisi minima veritatis odio cupiditate, ratione explicabo molestiae.
 </Typography>
 </Grid>
-<Grid item xs={12} sm={6} md={6} lg={4}>
+<Grid item maxWidth={'28vw'}>
 <Typography variant='h6' fontWeight='600' mb={1}>
 Contact Us
 </Typography>
 <Box sx={{display:'flex'}}>
 <LocationOnOutlinedIcon/>
-<Typography sx={{textAlign:'justify'}}>
+<Typography variant='body1'sx={{textAlign:'justify'}}>
 3rd & 4th Floor, SCO 54-55-56, Sector 17 A, Chandigarh
 </Typography>
 </Box>
 <Box sx={{display:'flex'}}>
-<PhoneInTalkOutlinedIcon/>
-<Typography sx={{textAlign:'justify'}}>
+<PhoneInTalkOutlinedIcon maxWidth={'1vw'}/>
+<Typography variant='body1'sx={{textAlign:'justify'}}>
 +91888888888, +912222222222
 </Typography>
 </Box>
 <Box sx={{display:'flex'}}>
 <EmailOutlinedIcon/>
-<Typography sx={{textAlign:'justify'}}>
+<Typography variant='body1'sx={{textAlign:'justify'}}>
 abc@xyz.com
 </Typography>
 </Box>
 </Grid>
 <Grid item xs={12}>
-<Box fullWidth mt={3} mb={1} sx={{bgcolor:'black',opacity:'0.3', height:'1px'}}/>
+<Box fullWidth sx={{bgcolor:'black',opacity:'0.3', height:'1px'}}/>
 </Grid>
-
-<Grid item xs={12}>
-  <Typography sx={{textAlign:'center'}}>
+        </Grid>
+        <Typography variant='body1' mt={'1vw'} sx={{textAlign:'center'}}>
   &copy; 2021 Indian Matrimonial | Trademarks and brands are the
           property of their respective owners.
   </Typography>
-</Grid>
-        </Grid>
       </Box>
     </>
   );

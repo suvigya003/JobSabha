@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family:"Poppins", sans-serif;
-  line-height: '20px';
-  font-size: '1.1em';
+  /* line-height: '20px'; */
+  /* font-size: {{md:'16px'}}; */
   max-width: 100rem;
 }
 
@@ -11,3 +11,8 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+@media screen {
+  body{
+    /* font-size: 16px; */
+  }
+}

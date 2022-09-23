@@ -27,9 +27,7 @@ const Navbar = () => {
     <>
      
       <Box
-        // ml={20}
-        // mr={20}
-        ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
+        ml={'1vw'} mr={'1vw'} 
         sx={{
           
             // color:'white',
@@ -40,67 +38,67 @@ const Navbar = () => {
           // bgcolor:'black',
           backgroundColor:theme.palette.background.dark,
         fontWeight:600,
-        borderRadius:'0px 0px 16px 16px',
-        display:{xs:'none', md:'flex'}
+        borderRadius:'0vw 0vw 1.5vw 1.5vw',
+       
         }}
       >   
-      <Link href="#" underline="none" color="inherit">Home </Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1' >Home </Typography> </Link>
       
       <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit">Latest Jobs </Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'>Latest Jobs </Typography> </Link>
        
        <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit"> Results</Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'> Results</Typography> </Link>
      
       <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit">Admit Card </Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'>Admit Card </Typography> </Link>
       
       <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit">Answer Key</Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'>Answer Key</Typography> </Link>
       
       <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit">  Syllabus </Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'>  Syllabus </Typography> </Link>
     
       <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit">   Search </Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'>   Search </Typography> </Link>
    
       <Box sx={{
-        height:'50px',
+        height:'3.7vw',
         // backgroundColor:'white',
         backgroundColor:theme.palette.text.main,
-        width:'1px'
+        width:'0.1vw'
       }}/>
-      <Link href="#" underline="none" color="inherit"> Contact Us</Link>
+      <Link href="#" underline="none" color="inherit"><Typography variant='subtitle1'> Contact Us</Typography> </Link>
      
        </Box>
        

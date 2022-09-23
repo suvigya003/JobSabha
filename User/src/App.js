@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter as Router,Routes, Outlet,Route } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@mui/material';
 import {theme} from './theme.js'
@@ -12,14 +13,20 @@ import PostPage from './components/post/PostPage';
 function App() {
   return (
     <>
+    <Router>
     <ThemeProvider theme={theme}>
     <Banner/>
     <Navbar/>
     <Blocks/>
     <Tables/>
     <Footer/>
-    <PostPage/>
+    {/* <PostPage/> */}
     </ThemeProvider>
+    
+    <Routes>
+      <Route exact path='/postPage' element={<PostPage  />}/>
+      </Routes>
+    </Router>
     
     </>
   );

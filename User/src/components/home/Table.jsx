@@ -25,22 +25,22 @@ import {theme} from '../../theme';
 const Tables = () => {
   return (
     <>
-        <Box m={5} mb={3} sx={{ display:{xs:'none', md:'flex'}}}
-        ml={{lg:25,md:15,sm:10, xs:7}} mr={{lg:25,md:15,sm:10, xs:7}} 
+        <Box m={'4vw'} mb={'1.6vw'} 
+        ml={'8vw'} mr={'6vw'}
         // ml={25}mr={25}
         >
-            <Grid container spacing={3}>
-              <Grid  item sm={6} md={4}>
+            <Grid container spacing={'1.2vw'}>
+              <Grid  item minWidth={'29vw'}>
 <Box 
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -55,16 +55,16 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px' 
+<Box mr='0.2vw' mb='0.6vw' 
 sx={{
   right:0,
   display:'flex',
@@ -85,17 +85,17 @@ sx={{
 
 </Box>
               </Grid>
-              <Grid  item sm={6} md={4}>
+              <Grid  item minWidth={'29vw'}>
 <Box 
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -110,16 +110,16 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box  mr='10px' mb='10px'
+<Box  mr='0.2vw' mb='0.6vw'
 sx={{
   right:0,
   display:'flex',
@@ -139,17 +139,17 @@ sx={{
 </Box>
 </Box>
               </Grid>
-              <Grid  item sm={6} md={4}>
+              <Grid  item minWidth={'29vw'}>
 <Box 
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -164,16 +164,16 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px'
+<Box mr='0.2vw' mb='0.6vw'
 sx={{
   right:0,
   display:'flex',
@@ -195,24 +195,24 @@ sx={{
               </Grid>
             </Grid>            
         </Box>
-        <Box m={1} sx={{ display:{xs:'none', md:'flex'}}}
-        ml={{lg:25,md:15,sm:10, xs:7}} mr={{lg:25,md:15,sm:10, xs:7}}
+        <Box m={'1.2vw'} 
+        ml={'8vw'} mr={'6vw'}
         // ml={25}mr={25}
-         mb={5}>
-<Grid container spacing={3}>
-<Grid  item md={8}>
-<Grid container spacing={3}>
-<Grid  item sm={6} md={6}>
+         mb={'4vw'}>
+<Grid container spacing={'1.2vw'}>
+<Grid  item maxWidth={'58vw'}>
+<Grid container spacing={'0.8vw'}  >
+<Grid  item minWidth={'28.5vw'}>
 <Box 
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -227,16 +227,16 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px'
+<Box mr='0.2vw' mb='0.6vw'
 sx={{
   right:0,
   display:'flex',
@@ -257,17 +257,17 @@ sx={{
 
 </Box>
 </Grid>
-<Grid  item sm={6} md={6}>
-<Box 
+<Grid  item minWidth={'28.5vw'}>
+<Box ml={'0.5vw'} mr={'-0.5vw'}
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -282,18 +282,18 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px'
+<Box mr='0.2vw' mb='0.6vw'
 sx={{
-  right:0,
+  // right:0,
   display:'flex',
   justifyContent:'end'
 }}
@@ -313,17 +313,17 @@ sx={{
 </Box>
 </Grid>
 
-<Grid  item sm={6} md={6}>
-<Box 
+<Grid  item minWidth={'28.5vw'}>
+<Box mt={'1vw'} 
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px',
+  borderRadius:'1.5vw 1.5vw 0vw 0vw',
   // minHeight:'auto'
 }}
 >
@@ -340,16 +340,16 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px'
+<Box mr='0.2vw' mb='0.6vw'
 sx={{
   right:0,
   display:'flex',
@@ -370,17 +370,17 @@ sx={{
 
 </Box>
 </Grid>
-<Grid  item sm={6} md={6}>
-<Box 
+<Grid  item minWidth={'28.5vw'}>
+<Box ml={'0.5vw'} mr={'-0.5vw'} mt={'1vw'}
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -395,16 +395,16 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px'
+<Box mr='0.2vw' mb='0.6vw'
 sx={{
   right:0,
   display:'flex',
@@ -427,17 +427,17 @@ sx={{
 </Grid>
 </Grid>
 </Grid>
-<Grid  item sm={6} md={4}>
+<Grid  item minWidth={'29vw'} >
 <Box 
 sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
+  border:'0.3vw solid'+ theme.palette.error.main,
+  borderRadius:'1.5vw'
 }}
 >
-<Box p={0.5}
+<Box p={'0.5vw'}
 sx={{
   bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
+  borderRadius:'1.5vw 1.5vw 0vw 0vw'
 }}
 >
 <Typography
@@ -452,28 +452,27 @@ sx={{
 </Typography>
 </Box>
 <ul>
-  <li><Link href="#">UP ITI Round 3 Result</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">UP ITI Round 3 Result</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI Round 3 Result</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI Round 3 Result</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>JHARKHAND ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>UP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 COMPARTMENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI ROUND 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>MP ITI 3 MENT RESULT</Typography> </Link></li>
+  <li><Link href="#"><Typography variant='body1'>DFASP ITI 3 MENT RESULT</Typography> </Link></li>
 </ul>
-<Box mr='10px' mb='10px'
+<Box mr='0.2vw' mb='0.6vw'
 sx={{
   right:0,
   display:'flex',
@@ -496,767 +495,8 @@ sx={{
 </Grid>
 </Grid>
         </Box>
-        <Box m={5} mb={3} sx={{ display:{md:'none'}}}
-        ml={{lg:25,md:15,sm:10, xs:7}} mr={{lg:25,md:15,sm:10, xs:7}} 
-        // ml={25}mr={25}
-        >
-            <Grid container spacing={3}>
-              <Grid margin={{xs:'auto',sm:'0'}} item sm={6} md={4}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Result
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px' 
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-              </Grid>
-              <Grid margin={'auto'} item sm={6} md={4}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Admit Card
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box  mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-</Box>
-              </Grid>
-              <Grid margin={'auto'} item sm={6} md={4}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Latest Jobs
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-</Box>
-              </Grid>
-              <Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Answer Key
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-<Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Syllabus
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-
-<Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px',
-  // minHeight:'auto'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
-  //  fontSize:'1em',
- }}
->
-  Certificate Verification
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-<Grid margin={{xs:'auto', sm:'0'}} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Important
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-<Grid margin={'auto'} item sm={6} md={4}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Admission
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI Round 3 Result</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">UP ITI Round 3 Result</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-            </Grid>            
-        </Box>
-        {/* <Box m={1} 
-        ml={{lg:25,md:15,sm:10, xs:7}} mr={{lg:25,md:15,sm:10, xs:7}}
-        // ml={25}mr={25}
-         mb={5}>
-<Grid container spacing={3}>
-<Grid margin={'auto'} item md={8}>
-<Grid container spacing={3}>
-<Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Answer Key
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-<Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Syllabus
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-
-<Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px',
-  // minHeight:'auto'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
-  //  fontSize:'1em',
- }}
->
-  Certificate Verification
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-<Grid margin={'auto'} item sm={6} md={6}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Important
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI ROUND 3 RESULT</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-</Grid>
-</Grid>
-<Grid margin={'auto'} item sm={6} md={4}>
-<Box 
-sx={{
-  border:'2px solid'+ theme.palette.error.main,
-  borderRadius:'16px'
-}}
->
-<Box p={0.5}
-sx={{
-  bgcolor:theme.palette.background.main,
-  borderRadius:'16px 16px 0px 0px'
-}}
->
-<Typography
- variant="h5"
- fontWeight="600"
- sx={{
-  color:theme.palette.text.main,
-   textAlign:'center',
- }}
->
-  Admission
-</Typography>
-</Box>
-<ul>
-  <li><Link href="#">UP ITI Round 3 Result</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">UP ITI Round 3 Result</Link></li>
-  <li><Link href="#">JHARKHAND ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">UP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 COMPARTMENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT</Link></li>
-  <li><Link href="#">MP ITI ROUND 3 MENT RESULT</Link></li>
-  <li><Link href="#">MP ITI 3 MENT RESULT</Link></li>
-  <li><Link href="#">DFASP ITI 3 MENT RESULT</Link></li>
-</ul>
-<Box mr='10px' mb='10px'
-sx={{
-  right:0,
-  display:'flex',
-  justifyContent:'end'
-}}
->
-<Button 
-sx={{
-  color:theme.palette.text.main,
-  textTransform: 'none',
-}}
->
-  <Typography fontWeight="700">
-    View More
-  </Typography>
-</Button>
-</Box>
-
-</Box>
-</Grid>
-</Grid>
-        </Box> */}
+       
+      
     </>
   )
 }

@@ -25,70 +25,22 @@ import MenuItem from '@mui/material/MenuItem';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import {theme} from '../../theme';
 
-const options = [
-  'Home',
-  'Latest Jobs',
-  'Results',
-  'Admit Card',
-  'Answer Key',
-  'Syllabus',
-  'Search',
-  'Contact Us',
-];
-const ITEM_HEIGHT = 48;
+
+
 const Banner = () => {
-  const [anchorEl, setAnchorEl] = useState();
-  const open = Boolean(anchorEl);
-  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  
   return (
     <>
-    <Box p={3} pt={10} pb={10} mt={1} ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
-     fullWidth  sx={{ borderRadius:{xs:'16px',md:'16px 16px 0px 0px'}, background:theme.palette.background.default,display:'flex',alignItems:'center',justifyContent:'center'}}>
-<Grid container spacing={3}>
-<Grid item md={2}>
+    <Box p={'3vw'} pt={'7vw'} pb={'7vw'} mt={'1vw'} ml={'1vw'} mr={'1vw'} 
+     fullWidth  sx={{ borderRadius:'1.5vw 1.5vw 0vw 0vw', background:theme.palette.background.default,display:'flex',alignItems:'center',justifyContent:'center'}}>
+<Grid container spacing={'2vw'}>
+<Grid item md={'10vw'}>
     <Box alignItems='center'>
-<img height='100px' width='100px' borderRadius='16px' border='1px solid black' src="" alt="Logo" srcset="" />
+<img height='2vw' width='2vw' borderRadius='16px'  src="" alt="Logo" srcset="" />
     </Box>
 </Grid>
-<Grid item md={10}>
-  <Box sx={{display:{md:'none'}, right:0}}>
-  <IconButton
-        aria-label="more"
-        id="long-button"
-        aria-controls={open ? 'long-menu' : undefined}
-        aria-expanded={open ? 'true' : undefined}
-        aria-haspopup="true"
-        onClick={handleClick}
-      >
-        <MoreVertIcon />
-      </IconButton>
-      <Menu
-        id="long-menu"
-        MenuListProps={{
-          'aria-labelledby': 'long-button',
-        }}
-        anchorEl={anchorEl}
-        open={open}
-        onClose={handleClose}
-        PaperProps={{
-          style: {
-            maxHeight: ITEM_HEIGHT * 4.5,
-            width: '20ch',
-          },
-        }}
-      >
-        {options.map((option) => (
-          <MenuItem key={option} selected={option === 'Pyxis'} onClick={handleClose}>
-            {option}
-          </MenuItem>
-        ))}
-      </Menu>
-  </Box>
+<Grid item md={'30vw'} >
+  
 
     <Box  sx={{display:'flex',flexDirection:'column', justifyContent:'center', alignItems:'center', 
 // color: theme.palette.text.main,

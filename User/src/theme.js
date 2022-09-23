@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material";
+import { createTheme, responsiveFontSizes } from "@mui/material";
 
 export const theme = createTheme({
     palette: {
@@ -60,11 +60,60 @@ export const theme = createTheme({
       },
       typography: {
         fontFamily: "Poppins, sans-serif",
-        lineSpacing:'20px',
+        // lineSpacing:'20px',
         fontWeightDark: 600,
         fontWeightBold: 700,
         fontWeightBolder: 800,
         fontWeightBoldest: 900,
+        h1: {
+          fontSize: "46px",
+          fontWeight: 400,
+          lineHeight: "50px",
+          margin: "0 0 0 0",
+        },
+        h2: {
+          fontSize: "26px",
+          fontWeight: 400,
+          lineHeight: "30px",
+          margin: "0 0 0 0",
+        },
+        h3: {
+          fontSize: '4.5vw',
+          fontWeight: 600,
+          lineHeight: "6vw",
+          margin: "0 0 0 0",
+          // ...responsiveFontSizes({md:'46px'}),
+        },
+        h4: {
+          fontSize: "1.5vw",
+          fontWeight: 600,
+          lineHeight: "32px",
+          margin: "0 0 0 0",
+        },
+        h5: {
+          fontSize: '1.7vw',
+          fontWeight: 600,
+          lineHeight: "1.8vw",
+          margin: "0 0 0 0",
+        },
+        h6: {
+            fontSize: "1.5vw",
+            fontWeight: 600,
+            lineHeight: "28px",
+            margin: "0 0 0 0",
+        },
+        body1: {
+          fontSize: "1.2vw",
+          fontWeight: 400,
+          lineHeight: "2.2vw",
+          margin: "0 0 0 0",
+      },
+      subtitle1: {
+        fontSize: "1.3vw",
+        fontWeight: 600,
+        // lineHeight: "28px",
+        margin: "0 0 0 0",
+    },
       },
       // breakpoints: {
       //   values: {

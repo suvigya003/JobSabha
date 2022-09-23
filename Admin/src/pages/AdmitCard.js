@@ -2,6 +2,7 @@ import { filter } from 'lodash';
 import { sentenceCase } from 'change-case';
 import { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 // material
 import {
   Box,
@@ -81,6 +82,7 @@ function applySortFilter(array, comparator, query) {
 }
 
 export default function User() {
+  const navigate = useNavigate();
   const [result, setResult] = useState({
     postName: '',
     shortInfo: '',
@@ -153,6 +155,39 @@ export default function User() {
   const filteredUsers = applySortFilter(USERLIST, getComparator(order, orderBy), filterName);
 
   const isUserNotFound = filteredUsers.length === 0;
+
+  async function addAdmitCard(event) {
+    event.preventDefault();
+
+    const response = await fetch(
+      "http://localhost:5000/addAdmitCard",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          // *****
+        }),
+      }
+    );
+
+    const data = await response.json();
+
+    if (data.userExists === true) {
+      alert("Given credentials already exist in the database, kindly log in");
+    } else {
+      if (data.token) {
+        alert("Given credentials have been signed up successfully");
+        localStorage.setItem("token", data.token);
+        navigate("/users");
+      } else {
+        alert("Please check the data entered");
+      }
+    }
+  }
+
+
 
   return (
     <Page title="User">

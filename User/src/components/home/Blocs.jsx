@@ -1,7 +1,9 @@
 import React from "react";
+import { Component } from 'react';
+import { useNavigate, Link } from "react-router-dom";
+import { BrowserRouter as Router,Routes, Outlet,Route } from 'react-router-dom';
 import {
   Box,
-  Link,
   Card,
   Table,
   Stack,
@@ -21,13 +23,16 @@ import {
 } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import {theme} from '../../theme';
+import PostPage from "../post/PostPage";
 
 const Blocks = () => {
+  const navigate = useNavigate();
   return (
     <>
-    <Box mt={1} 
+    
+    <Box mt={'0.7vw'} 
     // ml={20} mr={20}
-    ml={{lg:20,md:15,sm:10, xs:7}} mr={{lg:20,md:15,sm:10, xs:7}} 
+    ml={'1vw'} mr={'1vw'}
        sx={{
 display:'flex',
 alignItems:'center',
@@ -45,19 +50,50 @@ justifyContent:'center'
             Sarkari Result : SarkariResult.Com Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2022
             </Typography>
        </Box>
-      <Box m={5} ml={20} mr={20} >
-        <Grid container spacing={1}>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+       <Box m={'4vw'} ml={'1vw'} mr={'1vw'} mt={'3vw'}>
+        <Grid container spacing={'1.2vw'}>
+          <Grid item maxWidth={'24.7vw'}>
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.one,
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #B0BDFF',
+                border:'0.3vw solid #B0BDFF',
+                overflow:'hidden'
+              }}
+            >            
+              <Link htmlFor="#" color="inherit" underline="none">
+                <Typography
+                  variant="h5"
+                  fontWeight="600"
+                  sx={{
+                    // color: "white",
+                    fontFamily:theme.typography.fontFamily,
+                    textAlign:'center',
+                    color:theme.palette.text.main,
+                    //subtitle1
+                  }}
+                >
+                  UPSC OTR 2022 REGISTRATION
+                </Typography>
+              </Link>
+            </Box>
+          </Grid>
+          <Grid item maxWidth={'24.7vw'}>
+            <Box
+              p={'0.8vw'}
+              sx={{
+                bgcolor:theme.palette.background.one,
+                borderRadius: "1.5vw",
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent:'center',
+                border:'0.3vw solid #B0BDFF',
                 overflow:'hidden'
               }}
             >            
@@ -70,7 +106,7 @@ justifyContent:'center'
                     fontFamily:theme.typography.fontFamily,
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -78,18 +114,18 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item maxWidth={'24.7vw'}>
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.two,
                 // bgcolor: "red",
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #FFC093'
+                border:'0.3vw solid #FFC093'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -100,7 +136,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -108,18 +144,18 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item maxWidth={'24.7vw'}>
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.three,
                 // bgcolor: "red",
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #F6BCFF'
+                border:'0.3vw solid #F6BCFF'
                
               }}
             >            
@@ -131,7 +167,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -139,18 +175,18 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item maxWidth={'24.7vw'}>
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.four,
                 // bgcolor: "red",
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #B0BDFF'
+                border:'0.3vw solid #B0BDFF'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -161,7 +197,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -169,18 +205,18 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item  maxWidth={'24.7vw'} >
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.five,
                 // bgcolor: "red",
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #F6BCFF'
+                border:'0.3vw solid #F6BCFF'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -191,7 +227,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -199,21 +235,21 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item  maxWidth={'24.7vw'} >
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.six,
                 // bgcolor: "red",
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #9FF3FF'
+                border:'0.3vw solid #9FF3FF'
               }}
             >            
-              <Link href="../PostPage.jsx" color="inherit" underline="none">
+              <Link href="#" color="inherit" underline="none">
                 <Typography
                   variant="h5"
                   fontWeight="600"
@@ -221,7 +257,7 @@ justifyContent:'center'
                     // color: "white",
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
               UPSC OTR 2022 REGISTRATION 
@@ -229,18 +265,18 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Grid item  maxWidth={'24.7vw'} >
             <Box
-              p={1}
+              p={'0.8vw'}
               sx={{
                 bgcolor:theme.palette.background.seven,
                 // bgcolor: "red",
-                borderRadius: "16px",
+                borderRadius: "1.5vw",
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent:'center',
-                border:'2px solid #FFC093'
+                border:'0.3vw solid #FFC093'
               }}
             >            
               <Link href="#" color="inherit" underline="none">
@@ -250,7 +286,7 @@ justifyContent:'center'
                   sx={{
                     textAlign:'center',
                     color:theme.palette.text.main,
-                    fontSize:'1.1em'
+                    //subtitle1
                   }}
                 >
                   UPSC OTR 2022 REGISTRATION
@@ -258,38 +294,12 @@ justifyContent:'center'
               </Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} lg={3}>
-            <Box
-              p={1}
-              sx={{
-                bgcolor:theme.palette.background.eight,
-                // bgcolor: "red",
-                borderRadius: "16px",
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent:'center',
-                border:'2px solid #F6BCFF'
-              }}
-            >            
-              <Link href="#" color="inherit" underline="none">
-                <Typography
-                  variant="h5"
-                  fontWeight="600"
-                  sx={{
-                    // color: "white",
-                    textAlign:'center',
-                    color:theme.palette.text.main,
-                    fontSize:'1.1em'
-                  }}
-                >
-                  UPSC OTR 2022 REGISTRATION
-                </Typography>
-              </Link>
-            </Box>
-          </Grid>
+       
         </Grid>
       </Box>
+      <Outlet />
+    
+     
     </>
   );
 };
